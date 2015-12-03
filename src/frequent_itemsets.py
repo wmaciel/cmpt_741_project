@@ -79,12 +79,12 @@ def compute_frequent_itemsets(input, output, min_sup, assoc_min_sup, assoc_min_c
 
     print 'finding frequent itemsets...',
     # 30
-    item_sets = find_frequent_itemsets(transactions, min_sup)
+    item_sets = find_frequent_itemsets(transactions, int(min_sup))
     print len(item_sets)
 
     print 'generating association rules...',
     # 20, 0.5
-    rules = generate_association_rules(item_sets, assoc_min_sup, assoc_min_conf)
+    rules = generate_association_rules(item_sets, int(assoc_min_sup), float(assoc_min_conf))
     print len(rules)
 
     print 'matching transactions and rules...'
