@@ -24,3 +24,5 @@ Opensubspace_v3.31/README.txt
 .idea/.name
 
 src/.Rapp.history
+
+*.pyc
