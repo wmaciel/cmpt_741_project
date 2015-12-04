@@ -75,7 +75,6 @@ def compute_frequent_itemsets(input, output, min_sup, assoc_min_sup, assoc_min_c
     ids, transactions = extract_transactions(fp_in)
     fp_in.close()
     print len(transactions)
-    pprint(transactions)
 
     print 'finding frequent itemsets...',
     # 30
