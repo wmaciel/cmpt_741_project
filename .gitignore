@@ -26,3 +26,13 @@ Opensubspace_v3.31/README.txt
 src/.Rapp.history
 
 *.pyc
+
+*.log
+
+*.blg
+
+*.bbl
+
+*.aux
+
+*.gz
