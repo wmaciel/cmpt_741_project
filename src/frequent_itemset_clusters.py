@@ -23,7 +23,7 @@ def main(cluster_folder, output_file, min_sup, assoc_min_sup, assoc_min_conf ):
     fp_out.close()
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
+    if len(sys.argv) != 6:
         print 'parameters: cluster_folder , output file, min_sup, assoc_min_sup, assoc_min_conf'
     else:
         main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
